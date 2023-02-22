@@ -71,6 +71,12 @@ p {
     margin-left: 25px;
 }
 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
