@@ -21,6 +21,7 @@ h1 {
     font-size: 48px;
 }
 
+/* This class is just to format the "seo" in the company name in the header, to make the play on words pop */
 .seo {
     color: #d9dcd6;
 }
@@ -51,7 +52,7 @@ p {
     font-size: 16px;
 }
 
-/*I read an article, and I guess this is the best way to semantically do a hero image?*/
+/*I read an article, and I guess this is the best way to semantically do a hero image - create a class and handle it all in CSS*/
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +62,7 @@ p {
     background-position: center;
 }
 
+/* These two custom classes (float-left and float-right) allow the images and text to alternate orientation in each row */
 .float-left {
     float: left;
     margin-right: 25px;
